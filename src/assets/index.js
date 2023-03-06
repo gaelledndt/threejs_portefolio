@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
+import intellij from "./intellij.png";
 import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import cloud from "./cloud.png";
+import js from "./js.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -26,37 +26,45 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import man from "./testimonial/man.png"
+import happy from "./testimonial/happy.png"
+import joy from "./testimonial/joy.png"
+
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+    logo,
+    intellij,
+    creator,
+    cloud,
+    js,
+    github,
+    menu,
+    close,
+    css,
+    docker,
+    figma,
+    git,
+    html,
+    javascript,
+    mongodb,
+    nodejs,
+    reactjs,
+    redux,
+    tailwind,
+    typescript,
+    threejs,
+    meta,
+    shopify,
+    starbucks,
+    tesla,
+    man,
+    happy,
+    joy,
+    carrent,
+    jobit,
+    tripguide,
 };
