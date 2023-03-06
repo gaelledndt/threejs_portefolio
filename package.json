@@ -12,15 +12,19 @@
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.57.0",
     "@react-three/fiber": "^8.11.7",
+    "dat.gui": "^0.7.9",
     "framer-motion": "^10.0.2",
+    "install": "^0.13.0",
     "maath": "^0.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2",
     "react-tilt": "^0.1.4",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.150.1"
   },
   "devDependencies": {
+    "@types/dat.gui": "^0.7.7",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
