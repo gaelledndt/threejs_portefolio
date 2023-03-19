@@ -15,10 +15,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    afip,
+    search,
+    serfim,
+    epitech,
     carrent,
     jobit,
     tripguide,
@@ -121,53 +121,55 @@ const experiences = [
     {
         title: "En recherche d'alternance",
         company_name: "Avec vous ?",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        icon: search,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Sept 2023 - 2026",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Je suis à la recherche d'une alternance me permettant d'évoluer dans les meilleurs conditions",
+            "J'aimerais soit améliorer dans certaines compétences que j'ai acquises ou en acquérir des nouvelles ",
+/*            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Participating in code reviews and providing constructive feedback to other developers.",*/
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "MCF Pro",
+        company_name: "Epitech",
+        icon: epitech,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "Sept 2023 - 2026",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Concevoir, déployer et piloter des projets digitaux au sein des systèmes d’information des entreprises.",
+            "Devenir un expert technique et métier, maîtrisant les tenants et les aboutissants de sa spécialité et capable d’accompagner un projet de bout en bout",
+            "Maîtriser les tenants et les aboutissants d’un rôle de manager dans la tech : gestion de projet, management, process, contrôle qualité..",
+        ],
+    },
+    {
+        title: "Développeuse application",
+        company_name: "Serfim T.I.C.",
+        icon: serfim,
+        iconBg: "#E6DEDD",
+        date: "Oct 2021 - Actuellement ",
+        points: [
+            "Développement d'application en javascript. J'utilise aussi par moment typescrit et vue js.",
+            "J'ai eu la chance d'apprivoiser AWS. Une technologie qui m'intéresse de plus en plus",
+/*            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",*/
+        ],
+    },
+    {
+        title: "BTS SIO option SLAM",
+        company_name: "AFIP Formation",
+        icon: afip,
+        iconBg: "#E6DEDD",
+        date: "Sept 2021 - Actuellement ",
+        points: [
+            "Développement d'applications C# , Symfony et React",
+            "Cours d'introduction à la cybersécurité",
+            "Ainsi qu'au notion de système et réseaux",
+            "Compétences acquises : C# , PHP, React, Symfony, Python, Git, et d'autres .."
+
+
         ],
     },
 ];
@@ -175,26 +177,26 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis condimentum ante, eget efficitur eros scelerisque porta. ",
+        name: "Lorem Lee",
+        designation: "Directeur",
+        company: "Inconnu",
         image: man,
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis condimentum ante, eget efficitur eros scelerisque porta. ",
+        name: "Lorem Brown",
+        designation: "Collègue",
+        company: "Afip Formations",
         image: joy,
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis condimentum ante, eget efficitur eros scelerisque porta. ",
+        name: "Lorem Wang",
+        designation: "Professeur",
+        company: "Afip Formations",
         image: happy,
     },
 ];
