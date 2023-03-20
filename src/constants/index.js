@@ -84,24 +84,8 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
         name: "Node JS",
         icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
     },
     {
         name: "git",
@@ -244,7 +228,7 @@ const projects = [
         image: jobit,
         source_code_link: "https://github.com/",
     },
-    {
+ /*   {
         name: "Trip Guide",
         description:
             "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -264,7 +248,7 @@ const projects = [
         ],
         image: tripguide,
         source_code_link: "https://github.com/",
-    },
+    },*/
 ];
 
 export {services, technologies, experiences, testimonials, projects};
